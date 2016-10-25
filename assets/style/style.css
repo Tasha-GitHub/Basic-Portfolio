@@ -1,31 +1,47 @@
 body {
-	background-image: url("assets/images/cork-wallet.png");
+	background-image: url("../images/cork-wallet.png");
+	width: 960px;
 }
 
 footer {
 	clear: both;
 	background-color: #666666;
+	padding: 20px;
+	text-align: center;
+	border-style: solid none none none;
+	border-width: 10px;
+	border-color: #4aaaa5;
 }
 
 hr {
 	clear: both;
-
 }
 
 h1 {
 
 	background-color: #4aaaa5;
 	float: left;
+	color:white;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
 }
 
 nav {
 	float:right;
+	margin-right: 100px;
+	padding: 10px 10px 10px 10px;
 }
 
 section {
 	float: left;
+	width: 650px;
+	background-color: white;
 }
 
 aside {
 	float: right;
+	width: 270px;
+	background-color: white;
 }
