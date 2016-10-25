@@ -1,0 +1,31 @@
+body {
+	background-image: url("assets/images/cork-wallet.png");
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+}
+
+hr {
+	clear: both;
+
+}
+
+h1 {
+
+	background-color: #4aaaa5;
+	float: left;
+}
+
+nav {
+	float:right;
+}
+
+section {
+	float: left;
+}
+
+aside {
+	float: right;
+}
