@@ -1,6 +1,20 @@
+header {
+	background-color: #ffffff;
+	border-style: none none solid none;
+	border-width: 10px;
+	border-color: #cccccc;
+	overflow: visible;
+	padding-bottom: 0px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+}
+
 body {
 	background-image: url("../images/cork-wallet.png");
 	width: 960px;
+}
+
+p {
+	color:#777777;
 }
 
 footer {
@@ -15,6 +29,24 @@ footer {
 
 hr {
 	clear: both;
+}
+
+.logos {
+	height: 50px;
+	width: 50px;
+	float: left;
+
+}
+
+.projects img {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	float: left;
+}
+
+.project-header {
+	position: relative;
 }
 
 h1 {
