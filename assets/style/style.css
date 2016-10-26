@@ -11,7 +11,7 @@ header {
 
 nav {
 	float:right;
-	margin-right: 100px;
+	margin-right: 170px;
 	padding: 10px 10px 10px 10px;
 	width: 200px;
 	position: relative;
@@ -183,7 +183,7 @@ aside {
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-right: 100px;
+	margin-right: 200px;
 }
 
 
@@ -210,7 +210,37 @@ table, th, td {
 }
 
 
-input, textarea {
+input {
 	width: 100%;
 }
 
+textarea {
+	height: 200px;
+	width: 100%;
+	border-color: #cccccc;
+}
+
+#button {
+	width: 20%;
+	background-color: #4aaaa5;
+	border-style: hidden;
+	color:  #ffffff;
+	padding: 10px;
+	font-size: 16px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer, .push{
+  height: 50px;
+}
