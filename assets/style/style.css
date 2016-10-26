@@ -58,6 +58,10 @@ hr {
 
 }
 
+#left-logo{
+	padding-left: 30px
+}
+
 .projects img {
 	height: 100px;
 	width: 100px;
@@ -71,7 +75,6 @@ hr {
 }
 
 
-
 h2 {
 
 	color: #4aaaa5;
@@ -83,7 +86,6 @@ h2 {
 }
 
 
-
 section {
 	float: left;
 	width: 620px;
@@ -91,7 +93,7 @@ section {
 	border-style: solid;
 	border-width: 2px;
 	border-color: #dddddd;
-	padding:30px;
+	padding:0px 30px 30px 30px;
 	margin-bottom: 10px;
 	margin-left: -250px;
 }
