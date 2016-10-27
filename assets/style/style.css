@@ -11,13 +11,8 @@ a:hover {
 }
 
 a:focus {
-	color: black;
+	color: #000000;
 }
-
-a:active {
-	color: red;
-}
-
 
 header {
 	background-color: #ffffff;
@@ -167,8 +162,6 @@ html, body {
 }
 
 
-
-
 .logos {
 	height: 50px;
 	width: 50px;
@@ -252,7 +245,7 @@ input {
 }
 
 textarea {
-	height: 200px;
+	height: 140px;
 	width: 100%;
 	border-color: #cccccc;
 }
