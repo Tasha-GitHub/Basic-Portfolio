@@ -47,7 +47,7 @@ h1 {
 	padding: 31px;
 	display: block;
 	font-size: 40px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 
 }
 
@@ -59,10 +59,9 @@ h2 {
 	border-color: #cccccc;
 	padding-bottom: 10px;
 	font-size: 30px;
-	font-height: 1.5px;
 	margin-bottom: 10px;
 	padding-top: 10px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 
 }
 
@@ -74,10 +73,9 @@ h3 {
 	border-color: #cccccc;
 	padding-bottom: 10px;
 	font-size: 20px;
-	font-height: 1.5px;
 	margin-bottom: 10px;
 	padding-top: 10px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 
 }
 
