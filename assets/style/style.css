@@ -1,4 +1,23 @@
 /* formatting that affects multiple pages*/
+a{
+	color:#777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 15px;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #4aaaa5;
+}
+
+a:focus {
+	color: black;
+}
+
+a:active {
+	color: red;
+}
+
 
 header {
 	background-color: #ffffff;
@@ -19,11 +38,6 @@ nav {
 	position: relative;
 	top: 43px;
 	right: 50px;
-	display: block;
-}
-
-nav p {
-	float:left;
 }
 
 h1 {
@@ -85,14 +99,9 @@ p {
 	font-size: 16px;
 }
 
-
-
-
-
-
 section {
 	float: left;
-	width: 620px;
+	width: 586px;
 	background-color: #ffffff; 
 	border-style: solid;
 	border-width: 2px;
@@ -132,21 +141,33 @@ footer {
 	border-style: solid none none none;
 	border-width: 10px;
 	border-color: #4aaaa5;
-	
 }
+
 
 footer p {
 	text-align: center;
-	color: #777777;
+	color: #ffffff;
 }
-/* testing out hover */
-a p {
-	color: #777777;
+ /* footer test */
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-a p :hover {
-	color: #4aaaa5;
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -70px;
 }
+.push{
+  height: 70px;
+  clear: both;
+}
+
+
+
 
 .logos {
 	height: 50px;
@@ -217,7 +238,6 @@ a p :hover {
 }
 
 
-
 table, th, td {
     padding: 40px 20px 40px 20px;
 
@@ -244,20 +264,4 @@ textarea {
 	color:  #ffffff;
 	padding: 10px;
 	font-size: 16px;
-}
- /* footer test */
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-.wrapper {
-  min-height: 100%;
-
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -50px;
-}
-.footer, .push{
-  height: 50px;
 }
